@@ -59,6 +59,13 @@
         </dependency>
         <!-- Proyecto CON CUCUMBER-->
 
+
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+
     </dependencies>
 
 </project>

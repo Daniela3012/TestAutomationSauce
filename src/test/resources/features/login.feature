@@ -1,13 +1,14 @@
 #language: es
 @testfeature
 Característica: Login
-  Yo, como usuario
-  Quiero, tener una opción para iniciar sesión
-  Para ver todos los items
+  Yo como usuario
+  quiero iniciar sesion
+  para ver todos los productos
 
   @test
-  Escenario: Iniciar sesión
-    Dado que me encuentro en la página de login de Saucedemo
-    Cuando inicio sesión con las credenciales usuario: "standard_user" y contraseña: "secret_sauce"
-    Entonces valido que debería aparecer el título de "Products"
-    Y también valido que al menos exista un item
+  Escenario: Inicio de sesion
+    Dada que me encuentro en la pagina de inicio de sesion de Saucedemo
+    Cuando ingreso las dredenciales de usuario: "standard_user" y contraseña: "secret_sauce"
+    Entonces valido el titulo de "Products"
+    Y tambien valido que exista al menos un item
+    Y hago click en el producto "Test.allTheThings() T-Shirt (Red)"
